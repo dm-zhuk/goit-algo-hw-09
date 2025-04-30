@@ -30,14 +30,14 @@ This GoIT educational project implements two algorithms for the coin change solu
 
 The **greedy algorithm** is faster and suitable for standard coin denominations, making it efficient for large amounts in specific cases.
 The **DP algorithm**: O(amount \* n) complexity, slower for large amounts due to the nested loop over amount and denominations.
-For general use or non-standard enominations, prefer DP; for speed with standard denominations, use greedy.
+For general use or no prerequisites, prefer DP; For speed with standard denominations, use greedy.
 
 ## Backup data
 
 ### Testing amount: 113
 
-- Greedy Average Time (over 1000 runs): 0.000001 seconds
-- DP Time: 0.000123 seconds
+- Greedy Average Time (over 1000 runs): 0.000_001 seconds
+- DP Time: 0.000_123 seconds
 
 ### Testing amount: 199
 
@@ -49,7 +49,7 @@ For general use or non-standard enominations, prefer DP; for speed with standard
 - Greedy Time: 0.000_003 seconds
 - DP Time: 0.001_256 seconds
 
-### Testing amount: 10000
+### Testing amount: 10_000
 
 - Greedy Time: 0.000_003 seconds
 - DP Time: 0.020_638 seconds
